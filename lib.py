@@ -13,3 +13,5 @@ def print_statistics(images, t_images, labels, t_labels):
     #number of instances per class on test dataset
     for i in np.unique(t_labels):
         np.sum(t_labels==i)
+
+        
